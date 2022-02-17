@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    background-color: blue;
+}
+
+.header p{
+    padding: 10px;
+    color: #fff;
+}

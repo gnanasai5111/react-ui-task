@@ -1,0 +1,105 @@
+.main{
+    flex: 55%;
+    background-color: #000;
+    height: calc(100vh - 40px);
+    padding: 10px 20px;
+}
+.first-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #777;
+    color: #fff;
+    padding: 3px 12px;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+.second-row{
+    color: blueviolet;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    position: relative;
+}
+.third-row{
+    background-color: #777;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cross-button{
+    position: absolute;
+    padding: 0px 4px;
+    top: -11px;
+    right: -6px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #000;
+}
+.bitcoin-img{
+    position: absolute;
+    bottom: -4px;
+    right: 40px;
+}
+.third-row{
+    margin-top: 15px;
+}
+.three-group{
+    display: flex;
+    align-items: center;
+    
+}
+.three-group div{
+    background-color:rgb(26, 25, 25);
+    padding: 2px 7px;
+    border-radius: 10px;
+
+}
+.fourth-row{
+    display: flex;
+}
+.link-input{
+    background-color:rgb(26, 25, 25);
+    padding: 7px 7px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fourth-row .third-row{
+    flex: 50%;
+    
+}
+.fifth-row{
+    display: flex;
+    margin-top: 15px;
+}
+.sixth-row{
+    display: flex;
+    background-color: #777;
+    padding: 4px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sixth-row span{
+    flex: 25%;
+    margin: 10px;
+}
+.icon-color{
+    color: bisque;
+}

@@ -1,0 +1,103 @@
+.leftbar{
+    flex: 20%;
+    background-color: #000;
+    height: calc(100vh - 40px);
+    border-right: 1px solid #777;
+}
+.left-icon-container{
+    display: flex;
+    align-items: center;
+    margin: 3px 20px;
+    padding: 6px;
+    color: #777;
+    border-radius: 6px;
+    
+}
+.left-icon-container:hover{
+    background-color: #777;
+    color: #fff;
+}
+.left-icon-container span{
+    padding-left: 10px;
+}
+.first-icon-box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px 20px;
+    padding: 6px;
+}
+.first-icon-box{
+    color: #fff !important;
+    display: flex;
+    align-items: center;
+   
+}
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ 
+}
+.first-icon-box span{
+    padding-left: 10px;
+    font-size: 1.3rem;
+}
+
+
+.bottom-container{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.bottom-circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+
+}
+.top-first-row{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7rem;
+    margin-top: 10px;
+}
+.top-second-row{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.7rem;
+    align-items: center;
+    margin-top: 10px;
+}
+.top-first-row div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 3px;
+    margin-right: 3px;
+    color: #fff;
+}
+.top-second-row div{
+    color: #777;
+}
+.small-circle{
+    height: 14px;
+    width: 14px;
+    margin-left: 10px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.globe-icon{
+    font-size: 1rem !important;
+}

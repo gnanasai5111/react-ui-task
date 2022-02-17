@@ -1,0 +1,36 @@
+.rightbar{
+    flex: 25%;
+    background-color: #000;
+    height: calc(100vh - 40px);
+    padding: 10px 20px;
+    border-left: 1px solid #777;
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #777;
+    color: #fff;
+    padding: 3px 12px;
+    border-radius: 10px;
+    margin-right: 7px;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    /* margin: 10px 20px; */
+}
+.input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    border: 0;
+    background-color: #777;
+    width: 100%;
+    color: #fff;
+
+}
+.input::placeholder{
+    color: #fff;
+}
